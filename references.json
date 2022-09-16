@@ -1,5 +1,5 @@
 {
-    // "generalCriteria":"https://raw.githubusercontent.com/karlkirschner/scipro_grading_testing/master/criteria/general.json",
+    "generalCriteria":"https://raw.githubusercontent.com/karlkirschner/scipro_grading_testing/master/criteria/general.json",
     "assignmentSpecificCriteria":[
         {
             "id": 1,

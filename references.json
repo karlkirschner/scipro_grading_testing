@@ -24,6 +24,12 @@
             "title":"SciPy",
             "enabled": true,
             "url":"https://raw.githubusercontent.com/karlkirschner/scipro_grading_testing/master/criteria/scipy.json"
+        },
+        {
+            "id": 5,
+            "title":"GeneralTEST",
+            "enabled": true,
+            "url":"https://raw.githubusercontent.com/karlkirschner/scipro_grading_testing/master/criteria/general_test.json"
         }
     ]
 }

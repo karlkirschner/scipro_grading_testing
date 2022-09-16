@@ -96,13 +96,13 @@
 
             $.ajax({
                 dataType: "json",
-                url: "https://raw.githubusercontent.com/karlkirschner/scipro_assignments_grading/master/references.json",
+                url: "https://raw.githubusercontent.com/karlkirschner/scipro_grading_testing/master/references.json",
                 success: function (data) {
                     $.ajax({
                         dataType: "json",
                         url: data.generalCriteria,
                         success: function (data) {
-                            generalCriteria = data;
+                            generalCriteria.content = data;
                         },
                         complete: function () {
                             var promises = [];
